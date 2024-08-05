@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>Your Company © 2024</small>
+          <small className='website-rights'>Rhyno EV@2024</small>
           <div className='social-icons'>
             <a
               className='social-icon-link instagram'

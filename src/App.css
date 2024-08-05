@@ -117,12 +117,37 @@
 }
 
 .rentals{
-  background-image: url('/images/logo1.png');
+  background-image: url('/public/images/logo1.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+/* App.css */
+
+.rentals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.book-rentals-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-rentals-btn:hover {
+  background-color: #444;
 }
 
 .prebook-container {
@@ -133,4 +158,19 @@
 .prebook {
   font-size: 2rem;
   margin-bottom: 20px;
+}
+
+.prebook-pay-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #F9ED32; /* Adjust to fit your color scheme */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+.prebook-pay-button:hover {
+  background-color: #FFF225; /* Adjust to fit your color scheme */
 }

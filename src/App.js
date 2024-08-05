@@ -10,6 +10,8 @@ import Rentals from './components/pages/Rentals';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import CompareAll from './components/pages/CompareAll';
+import BookRentals from './components/pages/BookRentals';
+import PaymentForm from './components/pages/PaymentForm'; 
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/compare-all' element={<CompareAll />} />
+          <Route path='/book-rentals' element={<BookRentals />} />
+          <Route path='/payment-form' element={<PaymentForm />} /> 
         </Routes>
       </Router>
     </>
