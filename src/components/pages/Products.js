@@ -9,7 +9,7 @@ const Products = () => {
       name: 'Rhyno SE03 Lite',
       image: '/images/rhyno final.95.png',
       colors: ['#F9ED32', '#FFF225', '#424242'],
-      details: 'Indulge perfect harmony of power and range with this Rhyno. Offering an exhilarating experience with its robust 2000W motor, it ensures a thrilling ride while still delivering a stable 80-100 km range on a single charge. Like its counterparts, this machine features the safety assurance of a fire-safe advanced LFP battery, along with the comprehensive benefits of owning a Rhino. Boasting a formidable combination of a 2000W motor and a 1.8 kWh battery, this beast is ready to roar on the roads, providing an electrifying journey at every turn. Check out the other details below! SE03 LITE',
+      details: 'Indulge perfect harmony of power and range with this Rhyno. Offering an exhilarating experience with its robust 1500W motor, it ensures a thrilling ride while still delivering a stable 80-100 km range on a single charge. Like its counterparts, this machine features the safety assurance of a fire-safe advanced LFP battery, along with the comprehensive benefits of owning a Rhino. Boasting a formidable combination of a 1500W motor and a 1.8 kWh battery, this beast is ready to roar on the roads, providing an electrifying journey at every turn. Check out the other details below! SE03 LITE',
     },
     {
       name: 'Rhyno SE03',

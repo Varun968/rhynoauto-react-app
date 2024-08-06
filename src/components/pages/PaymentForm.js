@@ -10,7 +10,6 @@ const PaymentForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
     const paymentDetails = {
       cardNumber,
       expiryDate,
@@ -19,11 +18,8 @@ const PaymentForm = () => {
       email,
     };
 
-    console.log('Payment Details:', paymentDetails);
-
     try {
-      // Send the payment details to your server for processing
-      const response = await fetch('/api/process-payment', {
+      const response = await fetch('http://localhost:5000/api/process-payment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -33,9 +29,6 @@ const PaymentForm = () => {
 
       const result = await response.json();
       console.log('Payment Result:', result);
-
-      // Handle the result of the payment processing
-      // Example: Show a success or failure message to the user
     } catch (error) {
       console.error('Error processing payment:', error);
     }

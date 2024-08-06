@@ -7,6 +7,7 @@ import Products from './components/pages/Products';
 import Product from './components/pages/Product';
 import Prebook from './components/pages/Prebook';
 import Rentals from './components/pages/Rentals';
+import Confirmation from './components/pages/Confirmation';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import CompareAll from './components/pages/CompareAll';
@@ -24,6 +25,7 @@ function App() {
           <Route path='/product' element={<Product />} />
           <Route path='/prebook' element={<Prebook />} />
           <Route path='/rentals' element={<Rentals />} />
+          <Route path="/confirmation" element={<Confirmation />} />
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/compare-all' element={<CompareAll />} />
