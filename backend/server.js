@@ -18,9 +18,16 @@ connection.once('open', () => {
   console.log('MongoDB database connection established successfully');
 });
 
-// Import and use the payment route
+// Import and use routes
 const paymentRoute = require('./routes/payment');
-app.use('/api', paymentRoute);
+const bookRentalsRoute = require('./routes/bookRentals');
+const rentalsRoute = require('./routes/rentals');
+const confirmationRoute = require('./routes/confirmation');
+
+app.use('/api/payment', paymentRoute);
+app.use('/api/book-rentals', bookRentalsRoute);
+app.use('/api/rentals', rentalsRoute);
+app.use('/api/confirmation', confirmationRoute);
 
 app.get('/', (req, res) => {
   res.send('Server is running');
